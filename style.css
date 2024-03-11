@@ -1,0 +1,260 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+   }
+  
+.nav{
+    margin: 0 1.1rem;
+    width: 93rem;
+    height:5rem;
+    position: fixed;
+    z-index: 1;
+    border:6px solid black;
+    background-color: rgb(85, 75, 139);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;   
+}
+
+h2{
+    color:white; 
+}
+
+.navbar_items2{
+    display: flex;
+    gap: 2rem;
+    font-size: 1.7rem;
+    font-weight: 400;
+}
+
+a{
+    text-decoration: none;
+    color:rgb(2, 27, 53);
+   
+}
+a:hover{
+    color:#ADEFD1FF;
+    cursor: pointer;
+}
+
+.navbar_items3{
+    display: flex;
+    gap: 4rem;
+}
+.navbar_items3 button{
+    height: 2.5rem;
+    width: 6rem;
+    border: none;
+    box-shadow: 3px 4px #2d3838;
+    background-color: rgb(226, 143, 17);
+    border-radius: 1.3rem;
+    font-size: 1rem;
+    color: white;
+    font-weight: 600;
+}
+.navbar_items3 button:hover{
+    cursor: pointer;
+    background-color: rgb(110, 63, 6);
+    border-color:white;
+}
+
+
+/* floats */
+h1{
+    padding-top: 1rem;
+    text-align: center;
+}
+
+.container_child2{
+    border: 2ps solid red;
+    padding: 6rem 1rem 2rem 1rem;
+    margin: 0 1rem;
+}
+.con-bg{
+    background: #ADEFD1FF;
+}
+.container_child3{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.Text-box{
+    border: 3px solid rgb(9, 9, 87);
+    width: 26rem;
+    height: 27rem;
+    margin-left: 34.5rem;
+    text-align: center;
+    overflow-y: scroll;
+}
+#text-block {
+    position: absolute;
+    top: 100rem;
+    left: 44rem;
+}
+
+.blackb-color{
+    border:3px solid black;
+}
+.blue-color{
+    border:3px solid rgb(9, 9, 87);
+}
+.container_child3_items1{
+    width:30rem;
+    height: 30rem;
+    display: inline-block;
+    margin: 2rem;
+    padding-top: 3rem;
+}
+.bon{
+    margin-left: 1rem;
+}
+.grey-color{
+    background-color: grey;
+}
+.box{
+    height:8rem;
+    width:8rem;
+    border:3px solid rgb(230, 197, 50);
+    border-radius: 1rem;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.6rem;    
+}
+
+.black-color{
+    background-color: #2d3838;
+}
+.row{
+    margin-left: 10rem;
+}
+#row-2-b{
+    float: left;
+    margin-right: 1rem;
+}
+#row_3_b{
+    float: right;
+}
+
+/*  ----------------------------------flex css--------------------------------------------- */
+#row1-2-a{
+    margin-left: 9rem;
+}
+#row1-2-b{
+   position:absolute;
+   margin-top: 4rem;
+   margin-left: 13rem;
+}
+#row1-2-c{
+    margin-left: 9rem;
+    margin-top: 8rem;
+}
+#row2-3-b{
+    position:absolute;
+    margin-left: 2rem;
+}
+#row2-3-c{
+    margin-left: 10rem;
+}
+
+.third-Box{
+    height: auto;
+    background-color:#ADEFD1FF ;
+    margin: 30px 2rem 0px 2rem;
+}   
+
+#headText{
+    font-size: 2rem;
+    font-weight: 900;
+    text-align: center;
+    padding:2rem ;
+    word-spacing: 2rem;
+}
+
+.first-row{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;   
+}
+
+.boxa{
+    height:7rem;
+    width:7rem;
+    margin: 8px;
+    border:3px solid rgb(228, 189, 18);
+    border-radius: 1rem;
+    color:white;
+    background-color: #050606;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.6rem;
+      
+}
+
+.second-row{
+    height: auto;
+    margin:  0px 3rem ;
+    padding: 10px 0px;
+}
+
+.second1st-row{
+    display: flex;
+    padding:10px 0px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+hr{
+    border: 1px solid rgb(39, 6, 6);
+    margin: 10px;
+}
+
+.midbox{
+    height:7rem;
+    width:52rem;
+    margin: 8px;
+    border:3px solid rgb(228, 189, 18);
+    border-radius: 1rem;
+    color:white;
+    background-color: #050606;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.6rem;
+}
+
+.lastSecondRow{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    column-gap: 198px;
+}     
+
+#lastbutton{
+    background-color: goldenrod;
+    width: 90px;
+    height: 90px;
+    cursor: pointer;
+    position:fixed;
+    bottom: 20px;
+    right: 33px;
+    border-radius: 50px 01px 0px 50px;
+}
+
+footer{
+    background-color: #443c9c;
+    height: 80px;
+    margin: 0px 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+}
